@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="linkedinTutoria_l" targetName="linkedinTutorial" />
+      <config projectName="linkedinTutoria_l" targetName="typeCast" />
+      <config projectName="linkedinTutoria_l" targetName="helloWorld" />
+      <config projectName="linkedinTutoria_l" targetName="preprocessor_directives" />
+      <config projectName="linkedinTutoria_l" targetName="infoType" />
+      <config projectName="linkedinTutoria_l" targetName="inputName" />
+      <config projectName="linkedinTutoria_l" targetName="calc_average" />
+      <config projectName="linkedinTutoria_l" targetName="array_example" />
+      <config projectName="linkedinTutoria_l" targetName="helloWorld2" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="35b6b797-97e5-40ab-b3a0-547e98eec023" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="21HHqlcmXNFCK9Co4UNnxkXvaxF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="CMake Application.calc_average">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="array_example" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="linkedinTutoria_l" TARGET_NAME="array_example" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="linkedinTutoria_l" RUN_TARGET_NAME="array_example">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="calc_average" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="linkedinTutoria_l" TARGET_NAME="calc_average" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="linkedinTutoria_l" RUN_TARGET_NAME="calc_average">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="helloWorld" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="linkedinTutoria_l" TARGET_NAME="helloWorld" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="linkedinTutoria_l" RUN_TARGET_NAME="helloWorld">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="helloWorld2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="linkedinTutoria_l" TARGET_NAME="helloWorld2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="linkedinTutoria_l" RUN_TARGET_NAME="helloWorld2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="infoType" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="linkedinTutoria_l" TARGET_NAME="infoType" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="linkedinTutoria_l" RUN_TARGET_NAME="infoType">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="inputName" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="linkedinTutoria_l" TARGET_NAME="inputName" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="linkedinTutoria_l" RUN_TARGET_NAME="inputName">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="linkedinTutorial" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="linkedinTutoria_l" TARGET_NAME="linkedinTutorial" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="linkedinTutoria_l" RUN_TARGET_NAME="linkedinTutorial">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="preprocessor_directives" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="linkedinTutoria_l" TARGET_NAME="preprocessor_directives" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="linkedinTutoria_l" RUN_TARGET_NAME="preprocessor_directives">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="typeCast" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="linkedinTutoria_l" TARGET_NAME="typeCast" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="linkedinTutoria_l" RUN_TARGET_NAME="typeCast">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.array_example" />
+      <item itemvalue="CMake Application.calc_average" />
+      <item itemvalue="CMake Application.helloWorld" />
+      <item itemvalue="CMake Application.helloWorld2" />
+      <item itemvalue="CMake Application.infoType" />
+      <item itemvalue="CMake Application.inputName" />
+      <item itemvalue="CMake Application.linkedinTutorial" />
+      <item itemvalue="CMake Application.preprocessor_directives" />
+      <item itemvalue="CMake Application.typeCast" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="35b6b797-97e5-40ab-b3a0-547e98eec023" name="Changes" comment="" />
+      <created>1637591285934</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1637591285934</updated>
+      <workItem from="1637591289311" duration="60000" />
+      <workItem from="1637591420913" duration="375000" />
+      <workItem from="1637592567790" duration="5728000" />
+      <workItem from="1637709996928" duration="3000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
