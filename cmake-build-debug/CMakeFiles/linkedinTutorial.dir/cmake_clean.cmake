@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/linkedinTutorial.dir/main.cpp.obj"
-  "liblinkedinTutorial.dll.a"
   "linkedinTutorial.exe"
   "linkedinTutorial.exe.manifest"
+  "linkedinTutorial.lib"
   "linkedinTutorial.pdb"
 )
 

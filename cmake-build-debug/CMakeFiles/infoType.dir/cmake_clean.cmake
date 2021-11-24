@@ -2,8 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/infoType.dir/infoType.cpp.obj"
   "infoType.exe"
   "infoType.exe.manifest"
+  "infoType.lib"
   "infoType.pdb"
-  "libinfoType.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

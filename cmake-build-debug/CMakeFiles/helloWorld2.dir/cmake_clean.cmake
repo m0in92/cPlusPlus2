@@ -2,8 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/helloWorld2.dir/helloWorld2.cpp.obj"
   "helloWorld2.exe"
   "helloWorld2.exe.manifest"
+  "helloWorld2.lib"
   "helloWorld2.pdb"
-  "libhelloWorld2.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

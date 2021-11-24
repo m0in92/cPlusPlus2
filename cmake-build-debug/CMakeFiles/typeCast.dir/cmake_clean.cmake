@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/typeCast.dir/typeCast.cpp.obj"
-  "libtypeCast.dll.a"
   "typeCast.exe"
   "typeCast.exe.manifest"
+  "typeCast.lib"
   "typeCast.pdb"
 )
 
