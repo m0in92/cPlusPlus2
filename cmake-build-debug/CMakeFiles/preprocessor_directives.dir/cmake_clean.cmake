@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/preprocessor_directives.dir/preprocessor_directives.cpp.obj"
+  "libpreprocessor_directives.dll.a"
   "preprocessor_directives.exe"
   "preprocessor_directives.exe.manifest"
-  "preprocessor_directives.lib"
   "preprocessor_directives.pdb"
 )
 

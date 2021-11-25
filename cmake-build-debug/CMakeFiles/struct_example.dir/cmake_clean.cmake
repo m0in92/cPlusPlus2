@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/struct_example.dir/struct_example.cpp.obj"
+  "libstruct_example.dll.a"
   "struct_example.exe"
   "struct_example.exe.manifest"
-  "struct_example.lib"
   "struct_example.pdb"
 )
 

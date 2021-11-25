@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "E:/C++/cPlusPlus2/helloWorld2.cpp" "E:/C++/cPlusPlus2/cmake-build-debug/CMakeFiles/helloWorld2.dir/helloWorld2.cpp.obj"
+  "C:/Users/Moin/CLionProjects/linkedinTutorial/helloWorld2.cpp" "C:/Users/Moin/CLionProjects/linkedinTutorial/cmake-build-debug/CMakeFiles/helloWorld2.dir/helloWorld2.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "MSVC")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
