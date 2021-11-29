@@ -78,49 +78,34 @@ CMakeFiles/array_example.dir/array_example.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/array_example.dir/array_example.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Moin\CLionProjects\linkedinTutorial\array_example.cpp -o CMakeFiles\array_example.dir\array_example.cpp.s
 
-CMakeFiles/array_example.dir/class_example_header.cpp.obj: CMakeFiles/array_example.dir/flags.make
-CMakeFiles/array_example.dir/class_example_header.cpp.obj: class_example_header.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/array_example.dir/class_example_header.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\array_example.dir\class_example_header.cpp.obj -c C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\class_example_header.cpp
+CMakeFiles/array_example.dir/for_example.cpp.obj: CMakeFiles/array_example.dir/flags.make
+CMakeFiles/array_example.dir/for_example.cpp.obj: ../for_example.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/array_example.dir/for_example.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\array_example.dir\for_example.cpp.obj -c C:\Users\Moin\CLionProjects\linkedinTutorial\for_example.cpp
 
-CMakeFiles/array_example.dir/class_example_header.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/array_example.dir/class_example_header.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\class_example_header.cpp > CMakeFiles\array_example.dir\class_example_header.cpp.i
+CMakeFiles/array_example.dir/for_example.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/array_example.dir/for_example.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Moin\CLionProjects\linkedinTutorial\for_example.cpp > CMakeFiles\array_example.dir\for_example.cpp.i
 
-CMakeFiles/array_example.dir/class_example_header.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/array_example.dir/class_example_header.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\class_example_header.cpp -o CMakeFiles\array_example.dir\class_example_header.cpp.s
-
-CMakeFiles/array_example.dir/cow.cpp.obj: CMakeFiles/array_example.dir/flags.make
-CMakeFiles/array_example.dir/cow.cpp.obj: ../cow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/array_example.dir/cow.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\array_example.dir\cow.cpp.obj -c C:\Users\Moin\CLionProjects\linkedinTutorial\cow.cpp
-
-CMakeFiles/array_example.dir/cow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/array_example.dir/cow.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Moin\CLionProjects\linkedinTutorial\cow.cpp > CMakeFiles\array_example.dir\cow.cpp.i
-
-CMakeFiles/array_example.dir/cow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/array_example.dir/cow.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Moin\CLionProjects\linkedinTutorial\cow.cpp -o CMakeFiles\array_example.dir\cow.cpp.s
+CMakeFiles/array_example.dir/for_example.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/array_example.dir/for_example.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Moin\CLionProjects\linkedinTutorial\for_example.cpp -o CMakeFiles\array_example.dir\for_example.cpp.s
 
 # Object files for target array_example
 array_example_OBJECTS = \
 "CMakeFiles/array_example.dir/array_example.cpp.obj" \
-"CMakeFiles/array_example.dir/class_example_header.cpp.obj" \
-"CMakeFiles/array_example.dir/cow.cpp.obj"
+"CMakeFiles/array_example.dir/for_example.cpp.obj"
 
 # External object files for target array_example
 array_example_EXTERNAL_OBJECTS =
 
 array_example.exe: CMakeFiles/array_example.dir/array_example.cpp.obj
-array_example.exe: CMakeFiles/array_example.dir/class_example_header.cpp.obj
-array_example.exe: CMakeFiles/array_example.dir/cow.cpp.obj
+array_example.exe: CMakeFiles/array_example.dir/for_example.cpp.obj
 array_example.exe: CMakeFiles/array_example.dir/build.make
 array_example.exe: CMakeFiles/array_example.dir/linklibs.rsp
 array_example.exe: CMakeFiles/array_example.dir/objects1.rsp
 array_example.exe: CMakeFiles/array_example.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable array_example.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable array_example.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\array_example.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

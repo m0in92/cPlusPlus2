@@ -155,6 +155,19 @@ helloWorld/fast:
 .PHONY : helloWorld/fast
 
 #=============================================================================
+# Target rules for targets named for_example
+
+# Build rule for target.
+for_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 for_example
+.PHONY : for_example
+
+# fast build rule for target.
+for_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\for_example.dir\build.make CMakeFiles/for_example.dir/build
+.PHONY : for_example/fast
+
+#=============================================================================
 # Target rules for targets named linkedinTutorial
 
 # Build rule for target.
@@ -271,6 +284,58 @@ class_example_header/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_example_header.dir\build.make CMakeFiles/class_example_header.dir/build
 .PHONY : class_example_header/fast
 
+#=============================================================================
+# Target rules for targets named pointer_example
+
+# Build rule for target.
+pointer_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 pointer_example
+.PHONY : pointer_example
+
+# fast build rule for target.
+pointer_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer_example.dir\build.make CMakeFiles/pointer_example.dir/build
+.PHONY : pointer_example/fast
+
+#=============================================================================
+# Target rules for targets named vectors_example
+
+# Build rule for target.
+vectors_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 vectors_example
+.PHONY : vectors_example
+
+# fast build rule for target.
+vectors_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vectors_example.dir\build.make CMakeFiles/vectors_example.dir/build
+.PHONY : vectors_example/fast
+
+#=============================================================================
+# Target rules for targets named if_example_1
+
+# Build rule for target.
+if_example_1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 if_example_1
+.PHONY : if_example_1
+
+# fast build rule for target.
+if_example_1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\if_example_1.dir\build.make CMakeFiles/if_example_1.dir/build
+.PHONY : if_example_1/fast
+
+#=============================================================================
+# Target rules for targets named while_example
+
+# Build rule for target.
+while_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 while_example
+.PHONY : while_example
+
+# fast build rule for target.
+while_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\while_example.dir\build.make CMakeFiles/while_example.dir/build
+.PHONY : while_example/fast
+
 array_example.obj: array_example.cpp.obj
 .PHONY : array_example.obj
 
@@ -348,7 +413,6 @@ class_example_header.obj: class_example_header.cpp.obj
 
 # target to build an object file
 class_example_header.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_example.dir\build.make CMakeFiles/array_example.dir/class_example_header.cpp.obj
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_example_header.dir\build.make CMakeFiles/class_example_header.dir/class_example_header.cpp.obj
 .PHONY : class_example_header.cpp.obj
 
@@ -357,7 +421,6 @@ class_example_header.i: class_example_header.cpp.i
 
 # target to preprocess a source file
 class_example_header.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_example.dir\build.make CMakeFiles/array_example.dir/class_example_header.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_example_header.dir\build.make CMakeFiles/class_example_header.dir/class_example_header.cpp.i
 .PHONY : class_example_header.cpp.i
 
@@ -366,7 +429,6 @@ class_example_header.s: class_example_header.cpp.s
 
 # target to generate assembly for a file
 class_example_header.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_example.dir\build.make CMakeFiles/array_example.dir/class_example_header.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_example_header.dir\build.make CMakeFiles/class_example_header.dir/class_example_header.cpp.s
 .PHONY : class_example_header.cpp.s
 
@@ -375,7 +437,7 @@ cow.obj: cow.cpp.obj
 
 # target to build an object file
 cow.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_example.dir\build.make CMakeFiles/array_example.dir/cow.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_example_header.dir\build.make CMakeFiles/class_example_header.dir/cow.cpp.obj
 .PHONY : cow.cpp.obj
 
 cow.i: cow.cpp.i
@@ -383,7 +445,7 @@ cow.i: cow.cpp.i
 
 # target to preprocess a source file
 cow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_example.dir\build.make CMakeFiles/array_example.dir/cow.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_example_header.dir\build.make CMakeFiles/class_example_header.dir/cow.cpp.i
 .PHONY : cow.cpp.i
 
 cow.s: cow.cpp.s
@@ -391,8 +453,35 @@ cow.s: cow.cpp.s
 
 # target to generate assembly for a file
 cow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_example.dir\build.make CMakeFiles/array_example.dir/cow.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_example_header.dir\build.make CMakeFiles/class_example_header.dir/cow.cpp.s
 .PHONY : cow.cpp.s
+
+for_example.obj: for_example.cpp.obj
+.PHONY : for_example.obj
+
+# target to build an object file
+for_example.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\for_example.dir\build.make CMakeFiles/for_example.dir/for_example.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_example.dir\build.make CMakeFiles/array_example.dir/for_example.cpp.obj
+.PHONY : for_example.cpp.obj
+
+for_example.i: for_example.cpp.i
+.PHONY : for_example.i
+
+# target to preprocess a source file
+for_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\for_example.dir\build.make CMakeFiles/for_example.dir/for_example.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_example.dir\build.make CMakeFiles/array_example.dir/for_example.cpp.i
+.PHONY : for_example.cpp.i
+
+for_example.s: for_example.cpp.s
+.PHONY : for_example.s
+
+# target to generate assembly for a file
+for_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\for_example.dir\build.make CMakeFiles/for_example.dir/for_example.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_example.dir\build.make CMakeFiles/array_example.dir/for_example.cpp.s
+.PHONY : for_example.cpp.s
 
 helloWorld.obj: helloWorld.cpp.obj
 .PHONY : helloWorld.obj
@@ -441,6 +530,30 @@ helloWorld2.s: helloWorld2.cpp.s
 helloWorld2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\helloWorld2.dir\build.make CMakeFiles/helloWorld2.dir/helloWorld2.cpp.s
 .PHONY : helloWorld2.cpp.s
+
+if_example_1.obj: if_example_1.cpp.obj
+.PHONY : if_example_1.obj
+
+# target to build an object file
+if_example_1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\if_example_1.dir\build.make CMakeFiles/if_example_1.dir/if_example_1.cpp.obj
+.PHONY : if_example_1.cpp.obj
+
+if_example_1.i: if_example_1.cpp.i
+.PHONY : if_example_1.i
+
+# target to preprocess a source file
+if_example_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\if_example_1.dir\build.make CMakeFiles/if_example_1.dir/if_example_1.cpp.i
+.PHONY : if_example_1.cpp.i
+
+if_example_1.s: if_example_1.cpp.s
+.PHONY : if_example_1.s
+
+# target to generate assembly for a file
+if_example_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\if_example_1.dir\build.make CMakeFiles/if_example_1.dir/if_example_1.cpp.s
+.PHONY : if_example_1.cpp.s
 
 infoType.obj: infoType.cpp.obj
 .PHONY : infoType.obj
@@ -514,6 +627,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linkedinTutorial.dir\build.make CMakeFiles/linkedinTutorial.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+pointer_example.obj: pointer_example.cpp.obj
+.PHONY : pointer_example.obj
+
+# target to build an object file
+pointer_example.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer_example.dir\build.make CMakeFiles/pointer_example.dir/pointer_example.cpp.obj
+.PHONY : pointer_example.cpp.obj
+
+pointer_example.i: pointer_example.cpp.i
+.PHONY : pointer_example.i
+
+# target to preprocess a source file
+pointer_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer_example.dir\build.make CMakeFiles/pointer_example.dir/pointer_example.cpp.i
+.PHONY : pointer_example.cpp.i
+
+pointer_example.s: pointer_example.cpp.s
+.PHONY : pointer_example.s
+
+# target to generate assembly for a file
+pointer_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer_example.dir\build.make CMakeFiles/pointer_example.dir/pointer_example.cpp.s
+.PHONY : pointer_example.cpp.s
+
 preprocessor_directives.obj: preprocessor_directives.cpp.obj
 .PHONY : preprocessor_directives.obj
 
@@ -586,6 +723,54 @@ typeCast.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\typeCast.dir\build.make CMakeFiles/typeCast.dir/typeCast.cpp.s
 .PHONY : typeCast.cpp.s
 
+vectors_example.obj: vectors_example.cpp.obj
+.PHONY : vectors_example.obj
+
+# target to build an object file
+vectors_example.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vectors_example.dir\build.make CMakeFiles/vectors_example.dir/vectors_example.cpp.obj
+.PHONY : vectors_example.cpp.obj
+
+vectors_example.i: vectors_example.cpp.i
+.PHONY : vectors_example.i
+
+# target to preprocess a source file
+vectors_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vectors_example.dir\build.make CMakeFiles/vectors_example.dir/vectors_example.cpp.i
+.PHONY : vectors_example.cpp.i
+
+vectors_example.s: vectors_example.cpp.s
+.PHONY : vectors_example.s
+
+# target to generate assembly for a file
+vectors_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vectors_example.dir\build.make CMakeFiles/vectors_example.dir/vectors_example.cpp.s
+.PHONY : vectors_example.cpp.s
+
+while_example.obj: while_example.cpp.obj
+.PHONY : while_example.obj
+
+# target to build an object file
+while_example.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\while_example.dir\build.make CMakeFiles/while_example.dir/while_example.cpp.obj
+.PHONY : while_example.cpp.obj
+
+while_example.i: while_example.cpp.i
+.PHONY : while_example.i
+
+# target to preprocess a source file
+while_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\while_example.dir\build.make CMakeFiles/while_example.dir/while_example.cpp.i
+.PHONY : while_example.cpp.i
+
+while_example.s: while_example.cpp.s
+.PHONY : while_example.s
+
+# target to generate assembly for a file
+while_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\while_example.dir\build.make CMakeFiles/while_example.dir/while_example.cpp.s
+.PHONY : while_example.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -598,14 +783,19 @@ help:
 	@echo ... calc_average
 	@echo ... class_example
 	@echo ... class_example_header
+	@echo ... for_example
 	@echo ... helloWorld
 	@echo ... helloWorld2
+	@echo ... if_example_1
 	@echo ... infoType
 	@echo ... inputName
 	@echo ... linkedinTutorial
+	@echo ... pointer_example
 	@echo ... preprocessor_directives
 	@echo ... struct_example
 	@echo ... typeCast
+	@echo ... vectors_example
+	@echo ... while_example
 	@echo ... array_example.obj
 	@echo ... array_example.i
 	@echo ... array_example.s
@@ -621,12 +811,18 @@ help:
 	@echo ... cow.obj
 	@echo ... cow.i
 	@echo ... cow.s
+	@echo ... for_example.obj
+	@echo ... for_example.i
+	@echo ... for_example.s
 	@echo ... helloWorld.obj
 	@echo ... helloWorld.i
 	@echo ... helloWorld.s
 	@echo ... helloWorld2.obj
 	@echo ... helloWorld2.i
 	@echo ... helloWorld2.s
+	@echo ... if_example_1.obj
+	@echo ... if_example_1.i
+	@echo ... if_example_1.s
 	@echo ... infoType.obj
 	@echo ... infoType.i
 	@echo ... infoType.s
@@ -636,6 +832,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... pointer_example.obj
+	@echo ... pointer_example.i
+	@echo ... pointer_example.s
 	@echo ... preprocessor_directives.obj
 	@echo ... preprocessor_directives.i
 	@echo ... preprocessor_directives.s
@@ -645,6 +844,12 @@ help:
 	@echo ... typeCast.obj
 	@echo ... typeCast.i
 	@echo ... typeCast.s
+	@echo ... vectors_example.obj
+	@echo ... vectors_example.i
+	@echo ... vectors_example.s
+	@echo ... while_example.obj
+	@echo ... while_example.i
+	@echo ... while_example.s
 .PHONY : help
 
 

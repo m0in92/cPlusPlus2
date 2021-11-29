@@ -54,6 +54,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/struct_example.dir/DependInfo.cmake"
   "CMakeFiles/helloWorld2.dir/DependInfo.cmake"
   "CMakeFiles/helloWorld.dir/DependInfo.cmake"
+  "CMakeFiles/for_example.dir/DependInfo.cmake"
   "CMakeFiles/linkedinTutorial.dir/DependInfo.cmake"
   "CMakeFiles/inputName.dir/DependInfo.cmake"
   "CMakeFiles/preprocessor_directives.dir/DependInfo.cmake"
@@ -63,4 +64,8 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/calc_average.dir/DependInfo.cmake"
   "CMakeFiles/class_example.dir/DependInfo.cmake"
   "CMakeFiles/class_example_header.dir/DependInfo.cmake"
+  "CMakeFiles/pointer_example.dir/DependInfo.cmake"
+  "CMakeFiles/vectors_example.dir/DependInfo.cmake"
+  "CMakeFiles/if_example_1.dir/DependInfo.cmake"
+  "CMakeFiles/while_example.dir/DependInfo.cmake"
   )

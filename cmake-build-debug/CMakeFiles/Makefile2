@@ -65,6 +65,7 @@ CMAKE_BINARY_DIR = C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debu
 all: CMakeFiles/struct_example.dir/all
 all: CMakeFiles/helloWorld2.dir/all
 all: CMakeFiles/helloWorld.dir/all
+all: CMakeFiles/for_example.dir/all
 all: CMakeFiles/linkedinTutorial.dir/all
 all: CMakeFiles/inputName.dir/all
 all: CMakeFiles/preprocessor_directives.dir/all
@@ -74,6 +75,10 @@ all: CMakeFiles/typeCast.dir/all
 all: CMakeFiles/calc_average.dir/all
 all: CMakeFiles/class_example.dir/all
 all: CMakeFiles/class_example_header.dir/all
+all: CMakeFiles/pointer_example.dir/all
+all: CMakeFiles/vectors_example.dir/all
+all: CMakeFiles/if_example_1.dir/all
+all: CMakeFiles/while_example.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -84,6 +89,7 @@ preinstall:
 clean: CMakeFiles/struct_example.dir/clean
 clean: CMakeFiles/helloWorld2.dir/clean
 clean: CMakeFiles/helloWorld.dir/clean
+clean: CMakeFiles/for_example.dir/clean
 clean: CMakeFiles/linkedinTutorial.dir/clean
 clean: CMakeFiles/inputName.dir/clean
 clean: CMakeFiles/preprocessor_directives.dir/clean
@@ -93,6 +99,10 @@ clean: CMakeFiles/typeCast.dir/clean
 clean: CMakeFiles/calc_average.dir/clean
 clean: CMakeFiles/class_example.dir/clean
 clean: CMakeFiles/class_example_header.dir/clean
+clean: CMakeFiles/pointer_example.dir/clean
+clean: CMakeFiles/vectors_example.dir/clean
+clean: CMakeFiles/if_example_1.dir/clean
+clean: CMakeFiles/while_example.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -102,7 +112,7 @@ clean: CMakeFiles/class_example_header.dir/clean
 CMakeFiles/struct_example.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\struct_example.dir\build.make CMakeFiles/struct_example.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\struct_example.dir\build.make CMakeFiles/struct_example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target struct_example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target struct_example"
 .PHONY : CMakeFiles/struct_example.dir/all
 
 # Build rule for subdir invocation for target.
@@ -128,7 +138,7 @@ CMakeFiles/struct_example.dir/clean:
 CMakeFiles/helloWorld2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\helloWorld2.dir\build.make CMakeFiles/helloWorld2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\helloWorld2.dir\build.make CMakeFiles/helloWorld2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target helloWorld2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target helloWorld2"
 .PHONY : CMakeFiles/helloWorld2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -154,7 +164,7 @@ CMakeFiles/helloWorld2.dir/clean:
 CMakeFiles/helloWorld.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\helloWorld.dir\build.make CMakeFiles/helloWorld.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\helloWorld.dir\build.make CMakeFiles/helloWorld.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target helloWorld"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target helloWorld"
 .PHONY : CMakeFiles/helloWorld.dir/all
 
 # Build rule for subdir invocation for target.
@@ -174,13 +184,39 @@ CMakeFiles/helloWorld.dir/clean:
 .PHONY : CMakeFiles/helloWorld.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/for_example.dir
+
+# All Build rule for target.
+CMakeFiles/for_example.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\for_example.dir\build.make CMakeFiles/for_example.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\for_example.dir\build.make CMakeFiles/for_example.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target for_example"
+.PHONY : CMakeFiles/for_example.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/for_example.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/for_example.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/for_example.dir/rule
+
+# Convenience name for target.
+for_example: CMakeFiles/for_example.dir/rule
+.PHONY : for_example
+
+# clean rule for target.
+CMakeFiles/for_example.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\for_example.dir\build.make CMakeFiles/for_example.dir/clean
+.PHONY : CMakeFiles/for_example.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/linkedinTutorial.dir
 
 # All Build rule for target.
 CMakeFiles/linkedinTutorial.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linkedinTutorial.dir\build.make CMakeFiles/linkedinTutorial.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\linkedinTutorial.dir\build.make CMakeFiles/linkedinTutorial.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target linkedinTutorial"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target linkedinTutorial"
 .PHONY : CMakeFiles/linkedinTutorial.dir/all
 
 # Build rule for subdir invocation for target.
@@ -206,7 +242,7 @@ CMakeFiles/linkedinTutorial.dir/clean:
 CMakeFiles/inputName.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\inputName.dir\build.make CMakeFiles/inputName.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\inputName.dir\build.make CMakeFiles/inputName.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target inputName"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target inputName"
 .PHONY : CMakeFiles/inputName.dir/all
 
 # Build rule for subdir invocation for target.
@@ -232,7 +268,7 @@ CMakeFiles/inputName.dir/clean:
 CMakeFiles/preprocessor_directives.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\preprocessor_directives.dir\build.make CMakeFiles/preprocessor_directives.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\preprocessor_directives.dir\build.make CMakeFiles/preprocessor_directives.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target preprocessor_directives"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target preprocessor_directives"
 .PHONY : CMakeFiles/preprocessor_directives.dir/all
 
 # Build rule for subdir invocation for target.
@@ -258,7 +294,7 @@ CMakeFiles/preprocessor_directives.dir/clean:
 CMakeFiles/infoType.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\infoType.dir\build.make CMakeFiles/infoType.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\infoType.dir\build.make CMakeFiles/infoType.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target infoType"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target infoType"
 .PHONY : CMakeFiles/infoType.dir/all
 
 # Build rule for subdir invocation for target.
@@ -284,12 +320,12 @@ CMakeFiles/infoType.dir/clean:
 CMakeFiles/array_example.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_example.dir\build.make CMakeFiles/array_example.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\array_example.dir\build.make CMakeFiles/array_example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target array_example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles --progress-num=1,2,3 "Built target array_example"
 .PHONY : CMakeFiles/array_example.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/array_example.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/array_example.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/array_example.dir/rule
@@ -310,7 +346,7 @@ CMakeFiles/array_example.dir/clean:
 CMakeFiles/typeCast.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\typeCast.dir\build.make CMakeFiles/typeCast.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\typeCast.dir\build.make CMakeFiles/typeCast.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target typeCast"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target typeCast"
 .PHONY : CMakeFiles/typeCast.dir/all
 
 # Build rule for subdir invocation for target.
@@ -336,7 +372,7 @@ CMakeFiles/typeCast.dir/clean:
 CMakeFiles/calc_average.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_average.dir\build.make CMakeFiles/calc_average.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\calc_average.dir\build.make CMakeFiles/calc_average.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target calc_average"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles --progress-num=4,5 "Built target calc_average"
 .PHONY : CMakeFiles/calc_average.dir/all
 
 # Build rule for subdir invocation for target.
@@ -362,7 +398,7 @@ CMakeFiles/calc_average.dir/clean:
 CMakeFiles/class_example.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_example.dir\build.make CMakeFiles/class_example.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_example.dir\build.make CMakeFiles/class_example.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target class_example"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles --progress-num=6,7 "Built target class_example"
 .PHONY : CMakeFiles/class_example.dir/all
 
 # Build rule for subdir invocation for target.
@@ -388,12 +424,12 @@ CMakeFiles/class_example.dir/clean:
 CMakeFiles/class_example_header.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_example_header.dir\build.make CMakeFiles/class_example_header.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_example_header.dir\build.make CMakeFiles/class_example_header.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target class_example_header"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles --progress-num=8,9,10 "Built target class_example_header"
 .PHONY : CMakeFiles/class_example_header.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/class_example_header.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/class_example_header.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/class_example_header.dir/rule
@@ -406,6 +442,110 @@ class_example_header: CMakeFiles/class_example_header.dir/rule
 CMakeFiles/class_example_header.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\class_example_header.dir\build.make CMakeFiles/class_example_header.dir/clean
 .PHONY : CMakeFiles/class_example_header.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/pointer_example.dir
+
+# All Build rule for target.
+CMakeFiles/pointer_example.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer_example.dir\build.make CMakeFiles/pointer_example.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer_example.dir\build.make CMakeFiles/pointer_example.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target pointer_example"
+.PHONY : CMakeFiles/pointer_example.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/pointer_example.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/pointer_example.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/pointer_example.dir/rule
+
+# Convenience name for target.
+pointer_example: CMakeFiles/pointer_example.dir/rule
+.PHONY : pointer_example
+
+# clean rule for target.
+CMakeFiles/pointer_example.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\pointer_example.dir\build.make CMakeFiles/pointer_example.dir/clean
+.PHONY : CMakeFiles/pointer_example.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/vectors_example.dir
+
+# All Build rule for target.
+CMakeFiles/vectors_example.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vectors_example.dir\build.make CMakeFiles/vectors_example.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vectors_example.dir\build.make CMakeFiles/vectors_example.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target vectors_example"
+.PHONY : CMakeFiles/vectors_example.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/vectors_example.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/vectors_example.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/vectors_example.dir/rule
+
+# Convenience name for target.
+vectors_example: CMakeFiles/vectors_example.dir/rule
+.PHONY : vectors_example
+
+# clean rule for target.
+CMakeFiles/vectors_example.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\vectors_example.dir\build.make CMakeFiles/vectors_example.dir/clean
+.PHONY : CMakeFiles/vectors_example.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/if_example_1.dir
+
+# All Build rule for target.
+CMakeFiles/if_example_1.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\if_example_1.dir\build.make CMakeFiles/if_example_1.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\if_example_1.dir\build.make CMakeFiles/if_example_1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target if_example_1"
+.PHONY : CMakeFiles/if_example_1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/if_example_1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/if_example_1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/if_example_1.dir/rule
+
+# Convenience name for target.
+if_example_1: CMakeFiles/if_example_1.dir/rule
+.PHONY : if_example_1
+
+# clean rule for target.
+CMakeFiles/if_example_1.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\if_example_1.dir\build.make CMakeFiles/if_example_1.dir/clean
+.PHONY : CMakeFiles/if_example_1.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/while_example.dir
+
+# All Build rule for target.
+CMakeFiles/while_example.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\while_example.dir\build.make CMakeFiles/while_example.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\while_example.dir\build.make CMakeFiles/while_example.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target while_example"
+.PHONY : CMakeFiles/while_example.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/while_example.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/while_example.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Moin\CLionProjects\linkedinTutorial\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/while_example.dir/rule
+
+# Convenience name for target.
+while_example: CMakeFiles/while_example.dir/rule
+.PHONY : while_example
+
+# clean rule for target.
+CMakeFiles/while_example.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\while_example.dir\build.make CMakeFiles/while_example.dir/clean
+.PHONY : CMakeFiles/while_example.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

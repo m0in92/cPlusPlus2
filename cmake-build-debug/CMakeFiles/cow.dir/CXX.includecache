@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Moin/CLionProjects/linkedinTutorial/cow.cpp
+iostream
+-
+string
+-
+cow.h
+C:/Users/Moin/CLionProjects/linkedinTutorial/cow.h
+
+C:/Users/Moin/CLionProjects/linkedinTutorial/cow.h
+string
+-
+

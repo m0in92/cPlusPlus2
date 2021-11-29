@@ -9,8 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Moin/CLionProjects/linkedinTutorial/array_example.cpp" "C:/Users/Moin/CLionProjects/linkedinTutorial/cmake-build-debug/CMakeFiles/array_example.dir/array_example.cpp.obj"
-  "C:/Users/Moin/CLionProjects/linkedinTutorial/cmake-build-debug/class_example_header.cpp" "C:/Users/Moin/CLionProjects/linkedinTutorial/cmake-build-debug/CMakeFiles/array_example.dir/class_example_header.cpp.obj"
-  "C:/Users/Moin/CLionProjects/linkedinTutorial/cow.cpp" "C:/Users/Moin/CLionProjects/linkedinTutorial/cmake-build-debug/CMakeFiles/array_example.dir/cow.cpp.obj"
+  "C:/Users/Moin/CLionProjects/linkedinTutorial/for_example.cpp" "C:/Users/Moin/CLionProjects/linkedinTutorial/cmake-build-debug/CMakeFiles/array_example.dir/for_example.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

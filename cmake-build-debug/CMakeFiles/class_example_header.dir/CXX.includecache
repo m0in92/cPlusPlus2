@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Moin/CLionProjects/linkedinTutorial/cmake-build-debug/class_example_header.cpp
-iostream
--
+C:/Users/Moin/CLionProjects/linkedinTutorial/cow.cpp
+cow.h
+C:/Users/Moin/CLionProjects/linkedinTutorial/cow.h
+
+C:/Users/Moin/CLionProjects/linkedinTutorial/cow.h
 string
 -
 
